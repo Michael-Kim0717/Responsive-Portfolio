@@ -68,21 +68,12 @@ p {
 
 /* portfolio.html */
 
-figcaption {
-    /* background-color: #4aaaa5;
-    bottom: 60px;
+h6 {
+    background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    height: 30px;
-    padding-top: 10px;
-    position: relative;
     text-align: center;
     text-shadow: 1px 1px 0 black;
-    width: 250px; */
-}
-
-td {
-    padding-right: 50px;
 }
 
 .portfolio-image {
@@ -178,7 +169,7 @@ h5 {
 
     /* portfolio.html */
 
-    figcaption {
+  /*   figcaption {
         text-align: center;
         width: 48%;
     }
@@ -193,7 +184,7 @@ h5 {
         float: left;
         width: 48%;
     }
-
+ */
     /* contact.html */
 
     input {
@@ -244,20 +235,29 @@ h5 {
 
     /* portfolio.html */
 
-    figcaption {
-        text-align: center;
-        width: 48%;
-    }
-
-    .odd-image {
-        float: left;
+    h6 {
+        bottom: 60px;
+        margin-left: 0.25%;
+        padding: 15px 0px;
+        position: relative;
+        width: 100%;
     }
     
+    .last-image {
+        clear: both;
+    }
+
+    .pf-image {
+        float: left;
+        margin-bottom: -0.75em;
+        margin-right: 3%;
+        width: 46%;
+    }
+
     .portfolio-image {
         border: 1px solid #dddddd;
         border-radius: 3px;
-        float: left;
-        width: 48%;
+        width: 100%;
     }
 
     /* contact.html */
@@ -321,15 +321,20 @@ h5 {
 
     /* portfolio.html */
 
-    figcaption {
-        text-align: center;
+    h6 {
+        display: inline-block;
+        padding: 15px 0px;
+        position: relative;
+        bottom: 75px;
         width: 100%;
     }
     
-    td {
-        padding-right: 50px;
+    .pf-image {
+        float: left;
+        margin-bottom: -0.75em;
+        width: 100%;
     }
-    
+
     .portfolio-image {
         border: 1px solid #dddddd;
         border-radius: 3px;
