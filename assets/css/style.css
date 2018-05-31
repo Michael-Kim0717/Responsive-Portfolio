@@ -145,3 +145,70 @@ h5 {
 .footer-line {
     border-bottom: 10px solid #4aaaa5;
 }
+
+@media only screen and (max-width: 980px){
+    h1 {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    h1 {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    /* Header for mobile screens */
+
+    h1 {
+        background-color: #4aaaa5;
+        float: none;
+        font-size: 32px;
+        margin: 0;
+        padding: 15px 0px 20px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    li {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .header-list {
+        background-color: #ffffff;
+        border-bottom: 1px solid #cccccc;
+        display: block;
+        float: right;
+        margin: auto;
+        padding: 5px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .navbar {
+        background-color: white;
+        border-bottom: none;
+        height: 0px;
+    }  
+
+    /* Body for mobile screens */
+    
+    h3 {
+        font-size: 24px;
+    }
+
+    .clearfix {
+        margin: 140px 30px 30px 30px;
+    }
+
+    /* index.html */
+
+    #profile-photo {
+        float: none;
+        height: auto;
+        margin: 20px 0px;
+        width: 100%;
+    }
+}
